@@ -60,12 +60,10 @@ This file controls the bot’s behavior. Below is an example configuration:
 {
   "timeZone": "en-US",
   "skipInvalidProxy": false,
-  "delayEachAccount": [5, 8],
+  "delayEachAccount": [1, 1],
   "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 100,
-  "doTasks": true,
-  "playGames": true,
-  "referralCode": ""
+  "howManyAccountsRunInOneTime": 10,
+  "referralCode": "meomun115r"
 }
 ```
 
@@ -75,8 +73,6 @@ This file controls the bot’s behavior. Below is an example configuration:
   - `delayEachAccount`: Random delay range (in seconds) between accounts.
   - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
   - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
-  - `doTasks`: Enable task completion.
-  - `playGames`: Enable game-playing feature.
   - `referralCode`: Add your referral code (optional). Do not change it if you want to support me ^^
 
 ### 2. `datas.txt` - 🗂️ User Data
