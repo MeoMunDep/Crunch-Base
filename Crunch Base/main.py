@@ -1,1 +1,1 @@
-# Stop stealing my code, kiddo!
+print("STOP UPDATING THIS BOT, PLEASE CHOOSE ANOTHER SCRIPTS!")
